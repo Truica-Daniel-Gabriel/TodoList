@@ -1,0 +1,149 @@
+/* font-family: "Architects Daughter", cursive; */
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 14%;
+}
+ul li {
+  padding: 3%;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+.Navbar {
+  position: absolute;
+  left: 20px;
+  border: 2px solid;
+  width: 200px;
+  background-color: rgb(253, 225, 103);
+}
+.Navbar ul {
+  padding: 0% 7%;
+}
+.Navbar ul li {
+  display: flex;
+  margin: 13% 0;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: center;
+  padding: 0%;
+  cursor: pointer;
+  background-color: rgb(215, 223, 222);
+}
+.btli {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+.CheckItem {
+  cursor: no-drop;
+}
+.trashicon {
+  cursor: pointer;
+}
+#bt {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+.Forms button {
+  background-color: rgb(77, 189, 197);
+  width: auto;
+  height: auto;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffeaa7;
+}
+.container {
+  margin-top: 40px;
+  padding: 5% 2%;
+  border: solid 1px;
+  height: auto;
+  min-height: 16rem;
+  width: 17.5rem;
+  border-radius: 20px;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  background-color: white;
+}
+.container h1 {
+  background-color: rgb(48, 179, 179);
+  font-family: "Architects Daughter", cursive;
+  border-radius: 20% 10% 20% 10%/10% 5% 10% 10%;
+  text-align: center;
+  margin: 1.5rem 2rem 4rem;
+  transform: rotate(5.5deg);
+  border: 1px solid;
+}
+.Forms {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+}
+.Forms input {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: dashed 3px #ffcc29;
+  height: 30px;
+}
+::placeholder {
+  color: black;
+  font-size: 17px;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+  font-size: 17px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+  font-size: 17px;
+}
+/* @media (max-width: 575.98px) { ... } */
+/* 768 max width */
+@media (max-width: 768px) {
+  .Navbar {
+    position: absolute;
+    bottom: 1em;
+    width: auto;
+    border: 2px solid;
+    background-color: rgb(253, 225, 103);
+  }
+  .Navbar ul {
+    padding: 0% 7%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    border: 1px solid blue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+  }
+  .Navbar ul li {
+    display: flex;
+    margin: 13% 0;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+    padding: 0%;
+    cursor: pointer;
+    background-color: rgb(215, 223, 222);
+  }
+}
