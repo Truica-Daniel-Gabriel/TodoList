@@ -6,7 +6,7 @@ import week from './week'
 import NavBar from './NavBar';
 
 function App() {
-  const urlAddItems="https://todosv.herokuapp.com//AddItems";
+  const urlAddItems="https://todosv.herokuapp.com/AddItems";
   const [text, setText]=useState("");
   const [items, setItems]=useState([]);
   const [switchweek ,setweek]=useState(week);
